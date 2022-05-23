@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F1F1F1;
+    font-family: "Rubik";
+}
+
+.container {
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sidebar {
+    height: 100%;
+    width: 100px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    transition: 0.5s width;
+    overflow: hidden;
+}
+
+.sidebar:hover {
+    width: 255px;
+}
+
+.logo {
+    font-size: 60px;
+    color: #2A86B1;
+}
+
+.logo_icon::after {
+    color: #3FA5D5;
+    opacity: 1;
+}
+
+.user {
+    width: 70px;
+    height: 70px;
+}
+
+.user_image {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sidebar_nav {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.sidebar_link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #939393;
+    margin-bottom: 55px;
+    transition: 0.5s color;
+}
+
+
+.sidebar_link:hover {
+    color: #2A86B1;
+}
+
+.sidebar_icon {
+    width: 40px;
+    font-size: 31px;
+    text-align: center;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.sidebar_text {
+    font-size: 18px;
+}
+
+.main {
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.intro {
+    margin-bottom: 30px;
+    background: white url(../img/Фон.png) center/cover;
+    padding: 110px 60px;
+    border-radius: 15px;
+}
+
+.intro_title {
+    font-size: 50px;
+    line-height: 59px;
+    color: #464748;
+    max-width: 330px;
+    margin-bottom: 25px;
+}
+
+.intro_text {
+    color: #696868;
+    text-align: justify;
+    line-height: 19px;
+    margin-bottom: 25px;
+    max-width: 315px;
+    font-size: 16px;
+}
+
+.intro_button {
+    width: 211px;
+    height: 33px;
+    background: #3FA5D5;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 24px 18px 19px;
+    background: white;
+    width: 255px;
+    border-radius: 15px;
+}
+
+.card_title {
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2A86B1;
+    margin-bottom: 40px;
+}
+
+.card_icon {
+    font-size: 100px;
+    color: #3FA5D5;
+    display: block;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.card_button {
+    width: 100%;
+    height: 33px;
+    background: #3FA5D5;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section_title{
+    font-size: 20px;
+    color: #686868;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.comments{
+    width: 825px;
+}
+
+.comments_text{
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: #545454;
+    text-align: justify;
+    line-height: 19px;
+}
+
+.news{
+    width: 255px;
+}
+
+.news_item{
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.news_title{
+    font-size: 17px;
+    color: #323232;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.news_text{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 13px;
+}
+
+.news_image{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.footer{
+    background: #3FA5D5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_title{
+    font-size: 50px;
+    color: white;
+}
+
+.footer_tel{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer_email{
+    display: block;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
